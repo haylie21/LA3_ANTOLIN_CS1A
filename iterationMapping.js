@@ -1,6 +1,6 @@
 // Get the maximum loop limit from the user
 const prompt = require("prompt-sync")();  
-const maxLimit = parseInt(prompt("Enter loop limit: "),10);  
+const maxLimit = parseInt(prompt("Enter loop limit: "));  
 
 console.log("Result:");  
 
