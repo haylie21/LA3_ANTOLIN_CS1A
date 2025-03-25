@@ -1,10 +1,10 @@
-// Prompt the user to input the Max Limit of the loops  
+// Get the maximum loop limit from the user
 const prompt = require("prompt-sync")();  
-const maxLimit = parseInt(prompt("Enter the Limit of the Double Loop: "));  
+const maxLimit = parseInt(prompt("Enter loop limit: "),10);  
 
 console.log("Result:");  
 
-// Double loop to iterate and calculate the added value for each iteration  
+// Loop through all pairs (i, j) and print their sum
 for (let i = 0; i <= maxLimit; i++) {  
   for (let j = 0; j <= maxLimit; j++) {  
     let addedValue = i + j; // Add the current values of the counters  
