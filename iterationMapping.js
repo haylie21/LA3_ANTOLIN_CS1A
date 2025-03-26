@@ -1,10 +1,9 @@
-// Get the maximum loop limit from the user
-const prompt = require("prompt-sync")();  
+// Get the maximum loop limit from the user  
 const maxLimit = parseInt(prompt("Enter loop limit: "));  
 
 console.log("Result:");  
 
-// Loop through all pairs (i, j) and print their sum
+// Nested loops to calculate and display sum 
 for (let i = 0; i <= maxLimit; i++) {  
   for (let j = 0; j <= maxLimit; j++) {  
     let addedValue = i + j; // Add the current values of the counters  
